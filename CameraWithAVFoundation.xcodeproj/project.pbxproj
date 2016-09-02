@@ -34,7 +34,7 @@
 		64D101D81A7439C400316FAA /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D101D71A7439C400316FAA /* CameraToggleButton.m */; };
 		64D101DB1A7439D100316FAA /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D101DA1A7439D100316FAA /* CameraDismissButton.m */; };
 		64D101E11A75EA8A00316FAA /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D101E01A75EA8A00316FAA /* CameraFocalReticule.m */; };
-		64ED4A401BC9A11300C9CF4C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64ED4A3F1BC9A11300C9CF4C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		64ED4A401BC9A11300C9CF4C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64ED4A3F1BC9A11300C9CF4C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -300,6 +300,11 @@
 				CLASSPREFIX = Camera;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Gabriel Alvarado";
+				TargetAttributes = {
+					64ABD10918FF19E000B2E420 = {
+						DevelopmentTeam = N4R9MZ9X7L;
+					};
+				};
 			};
 			buildConfigurationList = 64ABD10518FF19E000B2E420 /* Build configuration list for PBXProject "CameraWithAVFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -479,7 +484,7 @@
 				GCC_PREFIX_HEADER = "CameraWithAVFoundation/CameraWithAVFoundation-Prefix.pch";
 				INFOPLIST_FILE = "CameraWithAVFoundation/CameraWithAVFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Gabriel-Alvarado.camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gabriel-Alvarado.camera.song314";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -497,7 +502,7 @@
 				GCC_PREFIX_HEADER = "CameraWithAVFoundation/CameraWithAVFoundation-Prefix.pch";
 				INFOPLIST_FILE = "CameraWithAVFoundation/CameraWithAVFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Gabriel-Alvarado.camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gabriel-Alvarado.camera.song314";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
